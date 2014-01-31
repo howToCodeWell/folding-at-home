@@ -13,5 +13,4 @@ RUN rpm -i https://fah.stanford.edu/file-releases/public/release/fahclient/cento
 ADD config.xml /etc/fahclient/
 RUN chown fahclient:root /etc/fahclient/config.xml
 
-EXPOSE 22
 CMD /etc/init.d/FAHClient start && tail -F /var/lib/fahclient/log.txt
