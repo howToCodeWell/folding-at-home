@@ -1,0 +1,9 @@
+<config>
+  <user value="magglass1"/>
+  <team value="2740"/>
+  <passkey value=""/>
+
+  <power value="light"/>
+  <gpu value="false"/>
+  <fold-anon value="false"/>
+</config>
