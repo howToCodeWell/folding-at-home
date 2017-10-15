@@ -6,7 +6,7 @@
 
 # Set environment variables USERNAME, TEAM, and POWER to customize your Folding client.
 
-FROM java:8-alpine
+FROM alpine:3.6
 RUN apk --update add rpm
 # If you set USERNAME to Anonymous, the folding@home client pauses for 5 minutes, but will then begin processing data.
 ENV USERNAME Anonymous
