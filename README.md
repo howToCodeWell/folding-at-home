@@ -11,7 +11,7 @@ USERNAME=<YOUR_USERNAME>
 TEAM=236997
 POWER=<low|medium|high>
 PASSKEY=<YOUR_PASSKEY>
-GPU=<true|fale>
+GPU=<true|false>
 ```
 Build and run the Docker container
 ```bash
