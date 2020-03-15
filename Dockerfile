@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -y wget  \
   && chown fahclient:root /etc/fahclient/config.xml
 
 ADD config.xml /etc/fahclient/config.xml
-RUN sed -i -e "s/{{USERNAME}}/$USERNAME/;s/{{TEAM}}/$TEAM/;s/{{POWER}}/$POWER/;s/{{PASSKEY}}/$PASSKEY/;s/{{GPU}}/$GPU/" /etc/fahclient/config.xml
+RUN sed -i -e "s/{{USERNAME}}/$USERNAME/;s/{{TEAM}}/$TEAM/;s/{{POWER}}/$POWER/;s/{{PASSKEY}}/$PASSKEY/;s/{{GPU}}/$GPU/;s/{{CPU_COUNT}}/$CPU_COUNT/" /etc/fahclient/config.xml
 
 EXPOSE 7396
 
