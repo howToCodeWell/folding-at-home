@@ -26,11 +26,16 @@ $ docker-compose stop fah
 ```bash
 $ docker-compose down -v --rmi='all'
 ```
+
 ## Install manually without Docker compose
 ```bash
 # Create volume for work units
 $ docker volume create fahclient
 
 # Run container
-$ docker run -v fahclient:/var/lib/fahclient -v ${PWD}/config.xml:/etc/fahclient/config.xml --name=fah_test -d howtocodewell/folding-at-home
+$ docker run -v fahclient:/var/lib/fahclient -v ${PWD}/config.xml:/etc/fahclient/config.xml --name=fah -d howtocodewell/folding-at-home
+```
+Monitor the logs
+```bash
+$ docker logs -f fah
 ```
