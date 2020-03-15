@@ -8,12 +8,14 @@ ARG TEAM=236997
 ARG POWER=medium
 ARG PASSKEY=????
 ARG GPU=false
+ARG CPU_COUNT=1
 
 ENV USERNAME=${USERNAME}
 ENV TEAM=${TEAM}
 ENV POWER=${POWER}
 ENV PASSKEY=${PASSKEY}
 ENV GPU=${GPU}
+ENV CPU_COUNT=${CPU_COUNT}
 
 
 ADD config.xml /usr/share/doc/fahclient/sample-config.xml

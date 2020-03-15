@@ -6,4 +6,5 @@
   <power value="{{POWER}}"/>
   <gpu value="{{GPU}}"/>
   <fold-anon value="false"/>
+  <cpus v='{{CPU_COUNT}}'/>
 </config>
