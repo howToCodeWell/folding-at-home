@@ -1,10 +1,9 @@
 <config>
-  <user value="{{USERNAME}}"/>
-  <team value="{{TEAM}}"/>
-  <passkey value="{{PASSKEY}}"/>
-
-  <power value="{{POWER}}"/>
-  <gpu value="{{GPU}}"/>
-  <fold-anon value="false"/>
-  <cpus v='{{CPU_COUNT}}'/>
+  <user value="Anonymous"/>
+  <team value="236997"/>
+  <passkey value="YOUR_PASSKEY"/>
+  <power value="Low"/>
+  <gpu value="false"/>
+  <fold-anon value="true"/>
+  <cpus v='1'/>
 </config>

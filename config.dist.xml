@@ -1,0 +1,9 @@
+<config>
+  <user value="YOUR_USERNAME"/>
+  <team value="236997"/>
+  <passkey value="YOUR_PASSKEY"/>
+  <power value="Low|Medium|High"/>
+  <gpu value="true|false"/>
+  <fold-anon value="false"/>
+  <cpus v='1|2|...'/>
+</config>
