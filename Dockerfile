@@ -21,8 +21,8 @@ ENV CPU_COUNT=${CPU_COUNT}
 ADD config.xml /usr/share/doc/fahclient/sample-config.xml
 
 RUN apt-get update && apt-get install -y wget  \
-  && wget -O fahclient_7.4.4_amd64.deb "https://download.foldingathome.org/releases/public/release/fahclient/debian-testing-64bit/v7.4/fahclient_7.4.4_amd64.deb" --no-check-certificate \
-  && dpkg -i --force-depends fahclient_7.4.4_amd64.deb \
+  && wget -O fahclient_7.5.1_amd64.deb "https://download.foldingathome.org/releases/public/release/fahclient/debian-stable-64bit/v7.5/fahclient_7.5.1_amd64.deb" --no-check-certificate \
+  && dpkg -i --force-depends fahclient_7.5.1_amd64.deb \
   && chown fahclient:root /etc/fahclient/config.xml
 
 ADD config.xml /etc/fahclient/config.xml
