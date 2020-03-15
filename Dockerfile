@@ -26,5 +26,6 @@ RUN apt-get update && apt-get install -y wget  \
 ADD config.xml /etc/fahclient/config.xml
 RUN sed -i -e "s/{{USERNAME}}/$USERNAME/;s/{{TEAM}}/$TEAM/;s/{{POWER}}/$POWER/;s/{{PASSKEY}}/$PASSKEY/;s/{{GPU}}/$GPU/" /etc/fahclient/config.xml
 
+EXPOSE 7396
 
 CMD /etc/init.d/FAHClient start && tail -F /var/lib/fahclient/log.txt
