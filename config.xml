@@ -1,9 +1,9 @@
 <config>
-  <user value="Anonymous"/>
+  <user value="pfwd"/>
   <team value="236997"/>
-  <passkey value="YOUR_PASSKEY"/>
-  <power value="Low"/>
+  <passkey value="f7f2cddc211ad18df7f2cddc211ad18d"/>
+  <power value="Medium"/>
   <gpu value="false"/>
   <fold-anon value="true"/>
-  <cpus v='1'/>
+  <cpus v='3'/>
 </config>
