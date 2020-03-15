@@ -12,6 +12,7 @@ services:
         - POWER=${POWER}
         - PASSKEY=${PASSKEY}
         - GPU=${GPU}
+        - CPU_COUNT=${CPU_COUNT}
     env_file:
       - .env
     volumes:
