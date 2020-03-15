@@ -39,3 +39,17 @@ Monitor the logs
 ```bash
 $ docker logs -f fah
 ```
+
+## Configuration
+A typical config file looks like this
+```xml
+<config>
+  <user value="pfwd"/>
+  <team value="236997"/>
+  <passkey value="<YOUR_PASSKEY"/>
+  <power value="Medium"/>
+  <gpu value="false"/>
+  <fold-anon value="true"/>
+  <cpus v='3'/>
+</config>
+```
