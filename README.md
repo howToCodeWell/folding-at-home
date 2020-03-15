@@ -3,8 +3,13 @@
 How To Code Well Team [236997](https://stats.foldingathome.org/team/236997)
 
 ## Install
+
 ```bash
-$ cp config.dist.xml .config.xml
+$ git clone https://github.com/howToCodeWell/folding-at-home
+```
+
+```bash
+$ cp config.dist.xml config.xml
 ```
 Adjust the variables in the config.xml
 
