@@ -1,0 +1,14 @@
+version: '3.5'
+
+services:
+  fah:
+    build:
+      context: .
+      args:
+        - USERNAME=${USERNAME}
+        - TEAM=${TEAM}
+        - POWER=${POWER}
+        - PASSKEY=${PASSKEY}
+        - GPU=${GPU}
+    env_file:
+      - .env
